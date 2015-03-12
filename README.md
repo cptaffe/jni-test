@@ -5,3 +5,8 @@ Java native interface test code.
 ```sh
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:.
 ```
+
+`DYLD_LIBRARY_PATH` on OS X.
+```sh
+export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:.
+```
